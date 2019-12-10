@@ -15,7 +15,6 @@ One that works with a TVALID signal that can change, as is the most common case.
 The IP takes an AXI Stream Slave signal that does not contain a TLAST signal.
 It outputs an AXI Stream Master signal that contains the TLAST signal.
 The TLAST signal is generated after N valid samples, where N is the PACKET_LENGTH specified.
-An external FORCE_TLAST signal can be applied to trigger the end of packet early.
 
 # Usage
 All three "\*.v" files are verilog code.
